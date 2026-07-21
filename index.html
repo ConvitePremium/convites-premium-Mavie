@@ -737,13 +737,15 @@
 
       Object.entries(buttons).forEach(([key,el])=>{
         if(!el) return;
-        if(key === "counter"){
+
+        // Adiciona a bolinha de redimensionar sem apagar o texto dos botões Voltar.
+        // Antes, o innerHTML substituía todo o conteúdo do botão e removia “Voltar”.
+        if(!el.querySelector(".resize")){
           const resizeHandle = document.createElement("span");
           resizeHandle.className = "resize";
           el.appendChild(resizeHandle);
-        } else {
-          el.innerHTML = '<span class="resize"></span>';
         }
+
         el.addEventListener("pointerdown", e=>{
           if(!document.body.classList.contains("editor-on")) return;
           e.preventDefault(); e.stopPropagation(); selectArea(key);
