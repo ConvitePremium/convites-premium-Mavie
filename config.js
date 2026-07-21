@@ -23,21 +23,21 @@ window.CONFIG = {
   // ----- IDENTIDADE DO CONVITE -------------------------------------------
   // Nome do aniversariante. Aparece no título da aba do navegador e nos
   // textos automáticos do convite.
-  nome: "Maya",
+  nome: "Mavie",
 
   // ----- WHATSAPP (CONFIRMAR PRESENÇA) -----------------------------------
   // numero: DDI + DDD + número, SÓ DÍGITOS (sem +, espaço, parênteses ou traço).
   //         Ex.: 55 (Brasil) + 31 (DDD) + 985657116 -> "5531985657116"
   // mensagem: texto que já vem pré-preenchido quando a pessoa abre o WhatsApp.
   whatsapp: {
-    numero: "5581994815258",
-    mensagem: "Olá! Confirmo minha presença no aniversário da Maya."
+    numero: "5541984300276",
+    mensagem: "Olá! Confirmo minha presença no aniversário da Mavie."
   },
 
   // ----- LOCALIZAÇÃO (BOTÃO MAPA) ----------------------------------------
   // Link completo do Google Maps. Abra o local no Maps, clique em "Compartilar"
   // -> "Copiar link" e cole aqui (mantenha as aspas).
-  mapa: "https://www.google.com/local/place/fid/0x7ab17b194233e37:0x9fd861d70d98dfdd/photosphere?iu=https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid%3D1esMHTRM4-0MvCPuxueicw%26cb_client%3Dsearch.gws-prod.gps%26yaw%3D294.368%26pitch%3D0%26thumbfov%3D100%26w%3D0%26h%3D0&ik=CAISFjFlc01IVFJNNC0wTXZDUHV4dWVpY3c%3D&sa=X&ved=2ahUKEwiDq-n438iVAxXVr5UCHWXPGOIQpx96BAgbEBI",
+  mapa: "https://www.google.com/maps/place/Morena+Flor+beauty+e+eventos/@-25.5185628,-48.5383098,17z/data=!3m1!4b1!4m6!3m5!1s0x94db85b509c5d3e1:0xde3fb195d425fa2e!8m2!3d-25.5185628!4d-48.5383098!16s%2Fg%2F11rnbyb9p7?entry=ttu&g_ep=EgoyMDI2MDcxNS4wIKXMDSoASAFQAw%3D%3D",
 
   // ----- QUAIS TELAS APARECEM --------------------------------------------
   // video:     true  -> toca o vídeo (assets/video.mp4) depois da abertura.
@@ -49,9 +49,9 @@ window.CONFIG = {
     whatsapp: true,
     localizacao: true,
     presentes: true,
-    dresscode: true,
-    manual: true,
-    contagem: true
+    dresscode: false,
+    manual: false,
+    contagem: false
   },
 
   // ----- TEXTOS DOS BOTÕES -----------------------------------------------
@@ -78,10 +78,7 @@ window.CONFIG = {
   // mostrarTexto: true mostra “Voltar”; false deixa apenas a área clicável.
   // A posição pode ser alterada no editor ?editor=1.
   botoesVoltar: {
-    presentes: { mostrarTexto: true, posicao: { left: 3.7, top: 1.5, width: 20, height: 6 } },
-    dresscode: { mostrarTexto: true, posicao: { left: 3.7, top: 1.5, width: 20, height: 6 } },
-    manual: { mostrarTexto: true, posicao: { left: 3.7, top: 1.5, width: 20, height: 6 } },
-    contagem: { mostrarTexto: true, posicao: { left: 3.7, top: 1.5, width: 20, height: 6 } }
+    presentes: { mostrarTexto: true, posicao: { left: 3.7, top: 1.5, width: 20, height: 6 } }
   },
 
   // ----- POSIÇÃO DOS BOTÕES NA TELA PRINCIPAL ----------------------------
@@ -109,27 +106,6 @@ window.CONFIG = {
       top: 81.62895592661293,
       width: 16.5,
       height: 16.35350516703228
-    },
-
-    dress: {
-      left: 81.0,
-      top: 81.62895592661293,
-      width: 16.5,
-      height: 16.35350516703228
-    },
-
-    manual: {
-      left: 20.0,
-      top: 68.0,
-      width: 18.0,
-      height: 8.0
-    },
-
-    countdown: {
-      left: 39.5,
-      top: 68.0,
-      width: 21.0,
-      height: 8.0
     }
   },
 
