@@ -78,7 +78,7 @@ window.CONFIG = {
   // mostrarTexto: true mostra “Voltar”; false deixa apenas a área clicável.
   // A posição pode ser alterada no editor ?editor=1.
   botoesVoltar: {
-    presentes: { mostrarTexto:true, posicao: {"left":4.722364217252391,"top":3.5713580813679897,"width":18.773150459265178,"height":9.10701380147789} },
+    presentes: { mostrarTexto:true, posicao: {"left":1.655271565495208,"top":2.880905021765736,"width":24.907335762779553,"height":5.424621078532983} },
   },
 
   // ----- POSIÇÃO DOS BOTÕES NA TELA PRINCIPAL ----------------------------
@@ -87,9 +87,9 @@ window.CONFIG = {
   //   left/top: canto superior esquerdo do botão
   //   width/height: tamanho do botão
     hotspots: {
-        confirm: { left:14.612634721246735, top:76.80665265013735, width:20.05250816896965, height:14.326121948977525 },
-        map: { left:39.67322327871347, top:76.92171231459521, width:20.31482950087854, height:14.506879777150857 },
-        gift: { left:64.8248570905353, top:76.91089102197641, width:20.384971545527154, height:14.282146536944918 }
+        confirm: { left:16.043938385384116, top:77.38201785361962, width:17.803294410982428, height:14.095967088074378 },
+        map: { left:40.9000728194483, top:77.49708629758771, width:18.270101066373748, height:14.27673369575795 },
+        gift: { left:66.05169103123019, top:77.60133804566537, width:17.522364217252395, height:14.167064716738226 }
   },
 
   // ----- CONTAGEM REGRESSIVA ---------------------------------------------
